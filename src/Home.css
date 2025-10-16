@@ -1,0 +1,221 @@
+.FirstSectionMain{
+    border: 2px solid green;
+    width: 1440px;
+    height: 666px;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+     background-image: url(./assets/pictures/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+}
+.Box{
+    border: 2px solid red;
+    background-color: #fff;
+    width: 561px;
+    height: 325px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#BuyBtn{
+    background-color: #B88E2F;
+    color: #fff;
+    width: 222px;
+    height: 74px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.SecondSectionMain{
+    border: 2px solid red;
+    width: 1183px;
+    margin-bottom: 50px;
+}
+.TitleInSecondSectionMain{
+    border: 2px solid green;
+    text-align: center;
+    height: 76px;
+    margin-bottom: 20px;
+}
+.TitleInSecondSectionMain h2{
+font-size: 32px;
+font-weight: bold;
+
+}
+.TitleInSecondSectionMain p{
+font-size: 20px;
+font-weight: lighter;
+}
+.Presentation{
+    border: 2px solid;
+    display: flex;
+    gap: 1rem;
+}
+.Presentation figcaption{
+    text-align: center;
+    font-size: 24px;
+}
+.Presentation img{
+    width: 381px;
+    height: 480px;
+    margin-bottom: 20px;
+}
+.ThirdSectionMain {
+    border: 2px solid green;
+    width: 1236px;
+    height: 1084px;
+    margin-bottom: 50px;
+}
+.ThirdSectionMain h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Shelf{
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#ShowMoreBtn{
+    border: 1px solid #B88E2F;
+    color: #B88E2F;
+    width: 245px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.FourthSectionMain{
+    border: 2px solid;
+    width: 1440px;
+    height: 670px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.FourthSectionInfo{
+    display: flex;
+    flex-direction: column;
+}
+.FourthSectionInfo h2{
+    font-size: 40px;
+    font-weight: bold;
+    width: 345px;
+}
+.FourthSectionInfo button{
+    font-size: 16px;
+    width: 144px;
+    height: 60px;
+    background-color: #B88E2F;
+    color: #fff;
+    border: none;
+}
+.FourthSectionContent{
+    border: 2px solid;
+    background-image: url(./assets/pictures/FourthSectionContentBgImg.png);
+    width: 330px;
+    height: 582px;
+    padding: 30px;
+    display: flex;
+}
+.FourthSectionContent button{
+    background-color: #B88E2F;
+    border: none;
+    width: 39px;
+    height: 48px;
+    margin-top: auto;
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    width: 177px;
+    height: 130px;
+    margin-top: auto;
+}
+.FourthSectionContainer h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.FourthSectionContainer p{
+    text-align: center;
+}
+
+.FifthSectionMain{
+    border: 2px solid;
+    width: 1440px;
+}
+.FifthSectionMain p{
+    text-align: center;
+    font-size: 20px;
+}
+.FifthSectionMain h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Gallery{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.LeftSide, .Midle, .RightSide{
+    margin: auto;
+}
+.LeftSide{
+    width: 600px;
+    border: 2px solid red;
+}
+.Midle{
+    width: 240px;
+    border: 2px solid green;
+}
+.RightSide{
+    width: 600px;
+    border: 2px solid blue;
+}
+.LeftSideImg1{
+    width: 219px;
+    height: 382px;
+}
+.LeftSideImg2{
+    width: 361px;
+    height: 312px;
+}
+.LeftSideImg3{
+    width: 250px;
+    height: 323px;
+}
+.LeftSideImg4{
+    width: 220px;
+    height: 242px;
+}
+
+.Midle img{
+    width: 236px;
+    height: 392px;
+}
+
+.RightSideImg1{
+    width: 232px;
+    height: 348px;
+}
+.RightSideImg2{
+    width: 340px;
+    height: 433px;
+}
+.RightSideImg3{
+    width: 142px;
+    height: 242px;
+}
+.RightSideImg4{
+    width: 206px;
+    height: 196px;
+}

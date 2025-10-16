@@ -1,0 +1,60 @@
+.Footer {
+    border: 2px solid;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer h2{
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: gray;
+}
+.FooterContent{
+    border: 2px solid red;
+    margin-bottom: 50px;
+    width: 1113px;
+    height: 312px;
+    display: flex;
+     justify-content: space-between;
+}
+.FooterInfo{
+    border: 2px solid yellow;
+}
+.FooterInfo h2{
+    color: #000;
+    font-size: 24px;
+}
+.FooterNav{
+    width: 352px;
+    border: 2px solid green;
+    display: flex;
+    gap: 3rem;
+}
+.FooterNav li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.FooterComent {
+    border: 2px solid blue;
+    width: 286px;
+}
+.FooterComent input,
+.FooterComent button{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+    border: 2px solid;
+    width: 100%;
+    height: 59px;
+}

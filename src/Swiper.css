@@ -1,0 +1,29 @@
+.mySwiper {
+  background: #fff;
+  border: 2px solid red;
+  padding: 20px;
+  width: 648px;
+}
+.SwiperSlide{
+    display: flex;
+    gap: 1rem;
+}
+.SwiperSlide img{
+    width: 304px;
+    height: 486px;
+    border: 2px solid;
+}
+.mySwiper .swiper-pagination-bullet {
+  background: #B88E2F;
+}
+.mySwiper .swiper-button-prev {
+  display: none;
+}
+.mySwiper .swiper-button-next {
+  color: #B88E2F;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+}
