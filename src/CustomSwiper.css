@@ -1,0 +1,38 @@
+.custom-nav{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-pagination{
+    /* border: 2px solid red; */
+    position: static !important;
+    display: flex;
+    width: fit-content !important;
+}
+.swiper-pagination-bullet {
+  background: none;
+  opacity: 1;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.swiper-pagination-bullet-active {
+  background-color: #B88E2F;
+  color: #fff;
+}
+.custom-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}

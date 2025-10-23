@@ -1,0 +1,31 @@
+.Advantages{
+    border: 2px solid red;
+    width: 1440px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AdvantagesContainer{
+    border: 2px solid;
+    width: 1334px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.AdvantagesContent{
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+}
+.AdvantagesInfo{
+    border: 2px solid blue;
+}
+.AdvantagesInfo h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.AdvantagesInfo p{
+    font-size: 20px;
+    color: gray;
+}

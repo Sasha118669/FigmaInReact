@@ -1,0 +1,27 @@
+.MainCover{
+    border: 2px solid;
+    width: 1440px;
+    height: 316px;
+    background-image: url(./assets/pictures/ShopMainCoverImg.png);
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.MainCover h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+.MainCoverNav{
+    display: flex;
+    gap: 5px;
+}
+.MainCoverNav a{
+    font-size: 16px;
+}
+.MainContetn{
+    border: 2px solid;
+    width: 1236px;
+    margin-bottom: 50px;
+}

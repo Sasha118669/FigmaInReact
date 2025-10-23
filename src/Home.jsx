@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react'
 import {
  HeartIcon,
@@ -42,6 +43,7 @@ import Footer from './Footer.jsx'
 // import LivingImg from './assets/pictures/Second-img-SecondSectionMain.png'
 // import BedroomImg from './assets/pictures/Third-img-SecondSectionMain.png'
 import Card from './Card.jsx'
+import Shelf from './Shelf.jsx'
 // import Imageges1 from './assets/pictures/Images1.png'
 // import Imageges2 from './assets/pictures/Images2.png'
 // import Imageges3 from './assets/pictures/Images3.png'
@@ -116,71 +118,7 @@ return <>
 
     <section className='ThirdSectionMain'> 
         <h2>Our Products</h2>
-    <div className='Shelf'>
-  <Card
-    img={Images1}
-    discount="-30%"
-    productName="Syltherine"
-    shortDescription="Stylish cafe chair"
-    price="Rp 2.500.000"
-    fixPrice="Rp 3.500.000"
-  />
-  <Card
-    img={Images2}
-    discount="-30%"
-    productName="Leviosa"
-    shortDescription="Stylish cafe chair"
-    price="Rp 2.500.000"
-    fixPrice="Rp 3.500.000"
-  />
-  <Card
-    img={Images3}
-    discount="-50%"
-    productName="Lolito"
-    shortDescription="Luxury big sofa"
-    price="Rp 7.000.000"
-    fixPrice="Rp 14.000.000"
-  />
-  <Card
-    img={Images4}
-    newItem
-    productName="Respira"
-    shortDescription="Outdoor bar table and stool"
-    price="Rp 500.000"
-  />
-</div>
-
-    <div className='Shelf'>
-  <Card
-    img={Images5}
-    productName="Grifo"
-    shortDescription="Night lamp"
-    price="Rp 1.500.000"
-  />
-  <Card
-    img={Images6}
-    newItem
-    productName="Muggo"
-    shortDescription="Small mug"
-    price="Rp 150.000"
-  />
-  <Card
-    img={Images7}
-    discount="-50%"
-    productName="Pingky"
-    shortDescription="Cute bed set"
-    price="Rp 7.000.000"
-    fixPrice="Rp 14.000.000"
-  />
-  <Card
-    img={Images8}
-    newItem
-    productName="Potty"
-    shortDescription="Minimalist flower pot"
-    price="Rp 500.000"
-  />
-</div>
-
+          <Shelf/>
     <button id='ShowMoreBtn'>Show More</button>
     </section>
    
@@ -191,6 +129,8 @@ inspiration</h2>
 
     <button id='ExploreMoreBtn'>Explore More</button>
       </div>
+
+      <div className="FourthSectionContentContainer">
 
       <div className='FourthSectionContent'>
         <div className='FourthSectionContainer'>
@@ -203,6 +143,8 @@ inspiration</h2>
     <div className='SwiperContent'>
     <Swiper/>
     </div>
+
+      </div>
     </section>
 
     <section className='FifthSectionMain'>

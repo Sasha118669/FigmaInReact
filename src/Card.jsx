@@ -1,3 +1,4 @@
+import React from "react";
 import './Card.css'
 import HeartIcon from './assets/icons/HeartIcon.jsx'
 import ShareIcon from './assets/icons/ShareIcon.jsx'

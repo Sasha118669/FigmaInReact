@@ -41,7 +41,7 @@
     border: 2px solid;
     gap: 75px;
 }
-.NavHeader1 h3{
+.NavHeader1 a{
     font-size: 16px;
     font-weight: normal; 
 
@@ -51,7 +51,7 @@
     gap: 75px;
     height: 41px;
 }
-.NavHeader2 h3 {
+.NavHeader2 a {
     width: 28px;
     height: 28px;
 }

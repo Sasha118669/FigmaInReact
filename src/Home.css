@@ -119,6 +119,9 @@ font-weight: lighter;
     color: #fff;
     border: none;
 }
+.FourthSectionContentContainer{
+    display: flex;
+}
 .FourthSectionContent{
     border: 2px solid;
     background-image: url(./assets/pictures/FourthSectionContentBgImg.png);

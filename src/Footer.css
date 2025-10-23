@@ -32,7 +32,12 @@
     display: flex;
     gap: 3rem;
 }
-.FooterNav li{
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
     list-style: none;
     margin-bottom: 20px;
     font-size: 16px;

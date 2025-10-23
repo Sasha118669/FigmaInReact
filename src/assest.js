@@ -4,8 +4,19 @@ import SearchIcon from './assets/icons/SearchIcon.jsx';
 import AccountIcon from './assets/icons/AccountIcon.jsx';
 import CartIcon from './assets/icons/CartIcon.jsx';
 import ArrowIcon from './assets/icons/ArrowIcon.jsx';
+import Arrow2Icon from './assets/icons/Arrow2Icon.jsx';
 import ShareIcon from './assets/icons/ShareIcon.jsx';
 import CompareIcon from './assets/icons/CompareIcon.jsx';
+import TrophyIcon from './assets/icons/TrophyIcon.jsx';
+import CheckMarkIcon from './assets/icons/CheckMarkIcon.jsx';
+import BoxIcon from './assets/icons/BoxIcon.jsx';
+import SupportIcon from './assets/icons/SupportIcon.jsx';
+import FilterIcon from './assets/icons/FilterIcon.jsx';
+import GridIcon from './assets/icons/GridIcon.jsx';
+import AlignJustifyIcon from './assets/icons/AlignJustifyIcon.jsx';
+import LocationIcon from './assets/icons/LocationIcon.jsx';
+import PhoneIcon from './assets/icons/PhoneIcon.jsx';
+import TimeIcon from './assets/icons/TimeIcon.jsx';
 // SVG (если используете как путь)
 import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg';
 
@@ -42,8 +53,19 @@ export {
   AccountIcon,
   CartIcon,
   ArrowIcon,
+  Arrow2Icon,
   ShareIcon,
   CompareIcon,
+  TrophyIcon,
+  CheckMarkIcon,
+  BoxIcon,
+  SupportIcon,
+  FilterIcon,
+  GridIcon,
+  AlignJustifyIcon,
+  LocationIcon,
+  PhoneIcon,
+  TimeIcon,
   HouseLogoIcon,
   DiningImg,
   LivingImg,

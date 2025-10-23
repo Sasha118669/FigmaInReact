@@ -1,13 +1,26 @@
+import React from "react";
 import './Shop.css'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Card from './Card.jsx'
+import Shelf from './Shelf.jsx'
+import Advantages from './Advantages.jsx'
+import MainCover from './MainCover.jsx'
+import CustomSwiper from './CustomSwiper.jsx'
 import {
  HeartIcon,
   SearchIcon,
   AccountIcon,
   CartIcon,
   ArrowIcon,
+  Arrow2Icon,
+  TrophyIcon,
+  CheckMarkIcon,
+  BoxIcon,
+  SupportIcon,
+  FilterIcon,
+  GridIcon,
+  AlignJustifyIcon,
   ShareIcon,
   CompareIcon,
   HouseLogoIcon,
@@ -37,140 +50,46 @@ export default function Shop (){
     <Header/>
 
     <main className='Main'>
-        <section className='MainCover'>
-            <h2>Shop</h2>
-        </section>
-        <section className='MainContetn'>
-           <div className='Shelf'>
-             <Card
-               img={Images1}
-               discount="-30%"
-               productName="Syltherine"
-               shortDescription="Stylish cafe chair"
-               price="Rp 2.500.000"
-               fixPrice="Rp 3.500.000"
-             />
-             <Card
-               img={Images2}
-               discount="-30%"
-               productName="Leviosa"
-               shortDescription="Stylish cafe chair"
-               price="Rp 2.500.000"
-               fixPrice="Rp 3.500.000"
-             />
-             <Card
-               img={Images3}
-               discount="-50%"
-               productName="Lolito"
-               shortDescription="Luxury big sofa"
-               price="Rp 7.000.000"
-               fixPrice="Rp 14.000.000"
-             />
-             <Card
-               img={Images4}
-               newItem
-               productName="Respira"
-               shortDescription="Outdoor bar table and stool"
-               price="Rp 500.000"
-             />
-           </div>
-           
-               <div className='Shelf'>
-             <Card
-               img={Images5}
-               productName="Grifo"
-               shortDescription="Night lamp"
-               price="Rp 1.500.000"
-             />
-             <Card
-               img={Images6}
-               newItem
-               productName="Muggo"
-               shortDescription="Small mug"
-               price="Rp 150.000"
-             />
-             <Card
-               img={Images7}
-               discount="-50%"
-               productName="Pingky"
-               shortDescription="Cute bed set"
-               price="Rp 7.000.000"
-               fixPrice="Rp 14.000.000"
-             />
-             <Card
-               img={Images8}
-               newItem
-               productName="Potty"
-               shortDescription="Minimalist flower pot"
-               price="Rp 500.000"
-             />
-           </div>
+        <MainCover
+        pageName = {"Shop"}
+        />
 
-           <div className='Shelf'>
-             <Card
-               img={Images1}
-               discount="-30%"
-               productName="Syltherine"
-               shortDescription="Stylish cafe chair"
-               price="Rp 2.500.000"
-               fixPrice="Rp 3.500.000"
-             />
-             <Card
-               img={Images2}
-               discount="-30%"
-               productName="Leviosa"
-               shortDescription="Stylish cafe chair"
-               price="Rp 2.500.000"
-               fixPrice="Rp 3.500.000"
-             />
-             <Card
-               img={Images3}
-               discount="-50%"
-               productName="Lolito"
-               shortDescription="Luxury big sofa"
-               price="Rp 7.000.000"
-               fixPrice="Rp 14.000.000"
-             />
-             <Card
-               img={Images4}
-               newItem
-               productName="Respira"
-               shortDescription="Outdoor bar table and stool"
-               price="Rp 500.000"
-             />
-           </div>
-           
-               <div className='Shelf'>
-             <Card
-               img={Images5}
-               productName="Grifo"
-               shortDescription="Night lamp"
-               price="Rp 1.500.000"
-             />
-             <Card
-               img={Images6}
-               newItem
-               productName="Muggo"
-               shortDescription="Small mug"
-               price="Rp 150.000"
-             />
-             <Card
-               img={Images7}
-               discount="-50%"
-               productName="Pingky"
-               shortDescription="Cute bed set"
-               price="Rp 7.000.000"
-               fixPrice="Rp 14.000.000"
-             />
-             <Card
-               img={Images8}
-               newItem
-               productName="Potty"
-               shortDescription="Minimalist flower pot"
-               price="Rp 500.000"
-             />
-           </div>
+        <section className="ShopFilter">
+              <div className="LeftSideFilter">
+                    <div className="FilterElement">
+                      <FilterIcon/>
+                      <p>Filter</p>
+                    </div>
+                      <GridIcon/>
+                      <AlignJustifyIcon/>
+
+                  <p>|</p>
+                    <input type="text" placeholder=" Showing 1–16 of 32 results" disabled/>
+              </div>
+
+              <div className="RightSideFilter">
+                    <span>
+                      <p>Show</p>
+                      <input type="text" placeholder="16" disabled/>
+                    </span>
+
+                    <span>
+                      <p>Short by</p>
+                      <input type="text" placeholder="Default" disabled/>
+                    </span>
+              </div>
+      </section>
+
+        <section className='MainContetn'>
+          <div className='SwiperContent'>
+               <CustomSwiper 
+               content1 = {<Shelf/>}
+               content2 = {<Shelf/>}
+               />
+               </div>
         </section>
+
+<Advantages/>
     </main>
 
     <Footer/>
