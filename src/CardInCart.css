@@ -1,0 +1,12 @@
+.myTable th,
+.myTable td {
+  padding: 10px 15px;
+  text-align: left; 
+}
+
+.myTable input {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+}
+

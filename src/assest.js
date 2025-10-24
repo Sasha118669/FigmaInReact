@@ -17,6 +17,7 @@ import AlignJustifyIcon from './assets/icons/AlignJustifyIcon.jsx';
 import LocationIcon from './assets/icons/LocationIcon.jsx';
 import PhoneIcon from './assets/icons/PhoneIcon.jsx';
 import TimeIcon from './assets/icons/TimeIcon.jsx';
+import DeleteFilledIcon from './assets/icons/DeleteFilledIcon.jsx';
 // SVG (если используете как путь)
 import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg';
 
@@ -46,6 +47,8 @@ import RightSideImg2 from './assets/pictures/RightSideImg2.png';
 import RightSideImg3 from './assets/pictures/RightSideImg3.png';
 import RightSideImg4 from './assets/pictures/RightSideImg4.png';
 
+import AsgaardSofa5 from './assets/pictures/AsgaardSofa5.png';
+
 // Экспорт всех ассетов
 export {
   HeartIcon,
@@ -66,6 +69,7 @@ export {
   LocationIcon,
   PhoneIcon,
   TimeIcon,
+  DeleteFilledIcon,
   HouseLogoIcon,
   DiningImg,
   LivingImg,
@@ -86,5 +90,6 @@ export {
   RightSideImg1,
   RightSideImg2,
   RightSideImg3,
-  RightSideImg4
+  RightSideImg4,
+  AsgaardSofa5
 };
