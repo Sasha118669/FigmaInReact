@@ -1,0 +1,33 @@
+.ShopingCartBox{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.ShopingCartBox img{
+    border-radius: 15px;
+}
+.ShopingCartInfo h2{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.ShopingCartInfoPrice{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* border: 2px solid; */
+}
+.ShopingCartInfoPrice input{
+    text-align: center;
+    width: 20px;
+    font-size: 16px;
+    color: #000;
+    /* border: 2px solid; */
+}
+.ShopingCartInfoPrice p{
+    font-size: 16px;
+}
+.ShopingCartInfoPrice h3{
+    font-size: 12px;
+    color: #B88E2F;
+}

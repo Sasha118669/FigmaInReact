@@ -48,10 +48,12 @@
 }
 .NavHeader2{
     border: 2px solid;
+    /* position: relative; */
     gap: 75px;
     height: 41px;
 }
-.NavHeader2 a {
+.NavHeader2 button {
     width: 28px;
     height: 28px;
+    border: none;
 }

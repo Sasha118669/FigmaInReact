@@ -1,12 +1,20 @@
 import React from "react";
+import { useState } from 'react'
 import './Header.css'
-import HeartIcon from './assets/icons/HeartIcon.jsx'
-import SearchIcon from './assets/icons/SearchIcon.jsx'
-import AccountIcon from './assets/icons/AccountIcon.jsx'
-import CartIcon from './assets/icons/CartIcon.jsx'
-import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg'
+import CartIconBackdrop from './CartIconBackdrop.jsx'
+import { Link } from "react-router-dom";
+import {
+  HeartIcon,
+  SearchIcon,
+  AccountIcon,
+  CartIcon,
+  HouseLogoIcon,
+  ShopingCartBoxImg1
+} from "./assest.js";
 
 export default function Header (){
+    const [clicked, setClicked] = useState(false);
+    
     return <>
     <header className='Header'>
     <section className='ContentHeader'>
@@ -17,17 +25,22 @@ export default function Header (){
     </div>
 
 <div className='NavHeader1' > 
-    <a>Home</a>
-    <a>Shop</a>
-    <a>About</a>
-    <a>Contact</a>
+    <Link to="/">Home</Link>
+    <Link to="/shop">Shop</Link>
+    <Link to="/blog">About</Link>
+    <Link to="/contact">Contact</Link>
 </div>
 
 <div className='NavHeader2'>
-    <a><AccountIcon/></a>
-    <a><SearchIcon/></a>
-    <a><HeartIcon/></a>
-    <a><CartIcon/></a>
+    <button><AccountIcon/></button>
+    <button><SearchIcon/></button>
+    <button><HeartIcon/></button>
+    <button onClick={()=>{setClicked(true)}}>
+        <CartIcon/>
+        {clicked &&
+            <CartIconBackdrop/>
+        }
+        </button>
 </div>
 
     </section>

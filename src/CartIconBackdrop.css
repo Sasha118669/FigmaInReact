@@ -1,0 +1,61 @@
+.CartIconBackdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    width: 1440px;
+    height: 100%;
+    background-color: rgba(146, 146, 146, 0.5);
+}
+.ShopingCart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 30px;
+}
+.ShopingCartTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ShopingCartTitle h2{
+    font-size: 24px;
+}
+.ShopingCartContent{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 100px;
+}
+.ShopingCartSubtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.ShopingCartSubtotal h2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.ShopingCartSubtotal input{
+    font-size: 16px;
+    font-weight: bold;
+    color: #B88E2F;
+}
+.ShopingCartNav{
+    display: flex;
+    justify-content: space-between;
+}
+.ShopingCartNav button{
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 87px;
+    height: 30px;
+    font-size: 12px;
+}

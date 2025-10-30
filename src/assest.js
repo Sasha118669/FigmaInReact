@@ -18,6 +18,11 @@ import LocationIcon from './assets/icons/LocationIcon.jsx';
 import PhoneIcon from './assets/icons/PhoneIcon.jsx';
 import TimeIcon from './assets/icons/TimeIcon.jsx';
 import DeleteFilledIcon from './assets/icons/DeleteFilledIcon.jsx';
+import DeleteIcon from './assets/icons/DeleteIcon.jsx';
+import BagDeleteIcon from './assets/icons/BagDeleteIcon.jsx';
+import AdminIcon from './assets/icons/AdminIcon.jsx';
+import CalendarIcon from './assets/icons/CalendarIcon.jsx';
+import TagIcon from './assets/icons/TagIcon.jsx';
 // SVG (если используете как путь)
 import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg';
 
@@ -49,6 +54,18 @@ import RightSideImg4 from './assets/pictures/RightSideImg4.png';
 
 import AsgaardSofa5 from './assets/pictures/AsgaardSofa5.png';
 
+import ShopingCartBoxImg1 from './assets/pictures/ShopingCartBoxImg1.png';
+
+import BlogContentImg1 from './assets/pictures/BlogContentImg1.png';
+import BlogContentImg2 from './assets/pictures/BlogContentImg2.png';
+import BlogContentImg3 from './assets/pictures/BlogContentImg3.png';
+
+import RightSideBlogRecentPostImg1 from './assets/pictures/RightSideBlogRecentPostImg1.png';
+import RightSideBlogRecentPostImg2 from './assets/pictures/RightSideBlogRecentPostImg2.png';
+import RightSideBlogRecentPostImg3 from './assets/pictures/RightSideBlogRecentPostImg3.png';
+import RightSideBlogRecentPostImg4 from './assets/pictures/RightSideBlogRecentPostImg4.png';
+import RightSideBlogRecentPostImg5 from './assets/pictures/RightSideBlogRecentPostImg5.png';
+
 // Экспорт всех ассетов
 export {
   HeartIcon,
@@ -70,6 +87,11 @@ export {
   PhoneIcon,
   TimeIcon,
   DeleteFilledIcon,
+  DeleteIcon,
+  BagDeleteIcon,
+  AdminIcon,
+  CalendarIcon,
+  TagIcon,
   HouseLogoIcon,
   DiningImg,
   LivingImg,
@@ -91,5 +113,14 @@ export {
   RightSideImg2,
   RightSideImg3,
   RightSideImg4,
-  AsgaardSofa5
+  AsgaardSofa5,
+  ShopingCartBoxImg1,
+  BlogContentImg1,
+  BlogContentImg2,
+  BlogContentImg3,
+  RightSideBlogRecentPostImg1,
+  RightSideBlogRecentPostImg2,
+  RightSideBlogRecentPostImg3,
+  RightSideBlogRecentPostImg4,
+  RightSideBlogRecentPostImg5,
 };
