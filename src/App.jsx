@@ -5,6 +5,8 @@ import Cart from './Cart.jsx'
 import Checkout from './Checkout.jsx'
 import Contact from './Contact.jsx'
 import Blog from './Blog.jsx'
+import SingleProduct from './SingleProduct.jsx'
+import ProductComarison from './ProductComarison.jsx'
 import { Routes, Route } from "react-router-dom";
 export default function App (){
 
@@ -16,6 +18,8 @@ export default function App (){
         <Route path="/blog" element={<Blog />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/singleproduct" element={<SingleProduct />} />
+        <Route path="/productcomarison" element={<ProductComarison />} />
     </Routes>
     </>;
 }

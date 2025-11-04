@@ -23,9 +23,11 @@ import BagDeleteIcon from './assets/icons/BagDeleteIcon.jsx';
 import AdminIcon from './assets/icons/AdminIcon.jsx';
 import CalendarIcon from './assets/icons/CalendarIcon.jsx';
 import TagIcon from './assets/icons/TagIcon.jsx';
+import FacebookIcon from './assets/icons/FacebookIcon.jsx';
+import TwitterIcon from './assets/icons/TwitterIcon.jsx';
+import LinkedinIcon from './assets/icons/LinkedinIcon.jsx';
 // SVG (если используете как путь)
 import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg';
-
 // Фотографии
 import DiningImg from './assets/pictures/First-img-SecondSectionMain.png';
 import LivingImg from './assets/pictures/Second-img-SecondSectionMain.png';
@@ -66,6 +68,16 @@ import RightSideBlogRecentPostImg3 from './assets/pictures/RightSideBlogRecentPo
 import RightSideBlogRecentPostImg4 from './assets/pictures/RightSideBlogRecentPostImg4.png';
 import RightSideBlogRecentPostImg5 from './assets/pictures/RightSideBlogRecentPostImg5.png';
 
+import ProductComarisonTableImg from './assets/pictures/ProductComarisonTableImg.png';
+
+import SingleProductImg from 'C:/for job/figma in react/figma-in-react/src/assets/pictures/SingleProductImg.png';
+import SingleProductImg1 from 'C:/for job/figma in react/figma-in-react/src/assets/pictures/SingleProductImg1.png';
+import SingleProductImg2 from 'C:/for job/figma in react/figma-in-react/src/assets/pictures/SingleProductImg2.png';
+import SingleProductImg3 from'C:/for job/figma in react/figma-in-react/src/assets/pictures/SingleProductImg3.png';
+import SingleProductImg4 from 'C:/for job/figma in react/figma-in-react/src/assets/pictures/SingleProductImg4.png';
+
+import DescriptionImg from 'C:/for job/figma in react/figma-in-react/src/assets/pictures/DescriptionImg.png';
+
 // Экспорт всех ассетов
 export {
   HeartIcon,
@@ -92,6 +104,9 @@ export {
   AdminIcon,
   CalendarIcon,
   TagIcon,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon,
   HouseLogoIcon,
   DiningImg,
   LivingImg,
@@ -123,4 +138,11 @@ export {
   RightSideBlogRecentPostImg3,
   RightSideBlogRecentPostImg4,
   RightSideBlogRecentPostImg5,
+  ProductComarisonTableImg,
+  SingleProductImg,
+  SingleProductImg1,
+  SingleProductImg2,
+  SingleProductImg3,
+  SingleProductImg4,
+  DescriptionImg
 };

@@ -1,14 +1,14 @@
 import React from "react";
 import './Card.css'
-import HeartIcon from './assets/icons/HeartIcon.jsx'
-import ShareIcon from './assets/icons/ShareIcon.jsx'
-import CompareIcon from './assets/icons/CompareIcon.jsx'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 export default function Card({ img, discount, newItem, productName, shortDescription, price, fixPrice }) {
 
   return (<>
     <div className="Card">
+      <Link to="/singleproduct">
       <img src={img} alt={productName} />
+      </Link>
       {discount && <div className="Discount">{discount}</div>}
       {newItem && <div className="NewItem">New</div>}
       <div className="CardDescription">

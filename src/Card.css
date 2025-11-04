@@ -23,7 +23,7 @@
     font-size: 16px;
 }
 .NewItem{
-        color: #fff;
+    color: #fff;
     background-color: green;
     position: absolute;
     top: 16px;
@@ -40,9 +40,9 @@
     border: 2px solid green;
 }
 .CardDescription h2{
-    font-size: 24px;
-    font-weight: normal;
-    text-align: left;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    text-align: left !important;
 }
 .CardDescription p{
     font-size: 16px;

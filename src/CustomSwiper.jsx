@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export default function CustomSwiper({ content1, content2 }) {
+export default function CustomSwiper({ content1}) {
   useEffect(() => {
     const swiper = new Swiper('.CustomSwiper', {
       modules: [Navigation, Pagination],
@@ -36,15 +36,15 @@ export default function CustomSwiper({ content1, content2 }) {
       <div className="swiper-wrapper">
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1} {content2}</div>
+          <div>{content1}</div>
         </div>
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1} {content2}</div>
+          <div>{content1}</div>
         </div>
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1} {content2}</div>
+          <div>{content1}</div>
         </div>
 
       </div>

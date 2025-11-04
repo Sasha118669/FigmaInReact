@@ -45,7 +45,7 @@ export default function CartIconBackdrop (){
                     <div className="ShopingCartNav">
                     <Link to="/cart">Cart</Link>
                     <Link to="/checkout">Checkout</Link>
-                    <Link>Comparison</Link>
+                    <Link to="/productcomarison">Comparison</Link>
                     </div>
     
                     </div>

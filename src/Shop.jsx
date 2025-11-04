@@ -2,8 +2,8 @@ import React from "react";
 import './Shop.css'
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Card from './Card.jsx'
-import Shelf from './Shelf.jsx'
+import Card from "./Card.jsx";
+import CardsData from "./CardsData.js";
 import Advantages from './Advantages.jsx'
 import MainCover from './MainCover.jsx'
 import CustomSwiper from './CustomSwiper.jsx'
@@ -83,8 +83,23 @@ export default function Shop (){
         <section className='MainContetn'>
           <div className='SwiperContent'>
                <CustomSwiper 
-               content1 = {<Shelf/>}
-               content2 = {<Shelf/>}
+               content1 = {
+               <div className="Shelf">
+{
+                CardsData.map((cardData, i)=> 
+                i >= 16 ? null : 
+                <Card 
+                img={cardData.img}
+                      discount={cardData.discount}
+                      newItem={cardData.newItem}
+                      productName={cardData.productName}
+                      shortDescription={cardData.shortDescription}
+                      price={cardData.price}
+                      fixPrice={cardData.fixPrice}
+                />)
+            }
+            </div>   
+              }
                />
                </div>
         </section>
