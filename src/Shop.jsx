@@ -89,6 +89,7 @@ export default function Shop (){
                 CardsData.map((cardData, i)=> 
                 i >= 16 ? null : 
                 <Card 
+                key={i}
                 img={cardData.img}
                       discount={cardData.discount}
                       newItem={cardData.newItem}
@@ -96,6 +97,7 @@ export default function Shop (){
                       shortDescription={cardData.shortDescription}
                       price={cardData.price}
                       fixPrice={cardData.fixPrice}
+                      sku={cardData.sku}
                 />)
             }
             </div>   

@@ -43,6 +43,13 @@
     font-size: 16px;
     font-weight: bold;
 }
+.MyFooterLink{
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
 .FooterComent {
     border: 2px solid blue;
     width: 286px;

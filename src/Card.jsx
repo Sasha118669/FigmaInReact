@@ -2,11 +2,11 @@ import React from "react";
 import './Card.css'
 import { useState } from 'react'
 import { Link } from "react-router-dom";
-export default function Card({ img, discount, newItem, productName, shortDescription, price, fixPrice }) {
+export default function Card({ img, discount, newItem, productName, shortDescription, price, fixPrice, sku }) {
 
   return (<>
     <div className="Card">
-      <Link to="/singleproduct">
+      <Link to={`/singleproduct/${sku}`}>
       <img src={img} alt={productName} />
       </Link>
       {discount && <div className="Discount">{discount}</div>}

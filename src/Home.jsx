@@ -35,37 +35,11 @@ import {
 import "./Home.css";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
-// import HeartIcon from './assets/icons/HeartIcon.jsx'
-// import SearchIcon from './assets/icons/SearchIcon.jsx'
-// import AccountIcon from './assets/icons/AccountIcon.jsx'
-// import CartIcon from './assets/icons/CartIcon.jsx'
-// import HouseLogoIcon from './assets/icons/HouseLogoIcon.svg'
-// import ArrowIcon from './assets/icons/ArrowIcon.jsx'
-// import DiningImg from './assets/pictures/First-img-SecondSectionMain.png'
-// import LivingImg from './assets/pictures/Second-img-SecondSectionMain.png'
-// import BedroomImg from './assets/pictures/Third-img-SecondSectionMain.png'
-// import Card from './Card.jsx'
-// import Shelf from './Shelf.jsx'
-// import Imageges1 from './assets/pictures/Images1.png'
-// import Imageges2 from './assets/pictures/Images2.png'
-// import Imageges3 from './assets/pictures/Images3.png'
-// import Imageges4 from './assets/pictures/Images4.png'
-// import Imageges5 from './assets/pictures/Images5.png'
-// import Imageges6 from './assets/pictures/Images6.png'
-// import Imageges7 from './assets/pictures/Images7.png'
-// import Imageges8 from './assets/pictures/Images8.png'
-// import LeftSideImg1 from './assets/pictures/LeftSideImg1.png'
-// import LeftSideImg2 from './assets/pictures/LeftSideImg2.png'
-// import LeftSideImg3 from './assets/pictures/LeftSideImg3.png'
-// import LeftSideImg4 from './assets/pictures/LeftSideImg4.png'
-// import MidleImg from './assets/pictures/MidleImg.png'
-// import RightSideImg1 from './assets/pictures/RightSideImg1.png'
-// import RightSideImg2 from './assets/pictures/RightSideImg2.png'
-// import RightSideImg3 from './assets/pictures/RightSideImg3.png'
-// import RightSideImg4 from './assets/pictures/RightSideImg4.png'
 import Swiper from "./Swiper.jsx";
 
 export default function Home() {
+
+  const [cardsCounter, setCardsCounter] = useState(8)
   return (
     <>
       <Header />
@@ -115,8 +89,9 @@ export default function Home() {
           <div className="Shelf">
 {
                 CardsData.map((cardData, i)=> 
-                i >= 8 ? null : 
+                i >= cardsCounter ? null : 
                 <Card 
+                key={i}
                 img={cardData.img}
                       discount={cardData.discount}
                       newItem={cardData.newItem}
@@ -124,10 +99,13 @@ export default function Home() {
                       shortDescription={cardData.shortDescription}
                       price={cardData.price}
                       fixPrice={cardData.fixPrice}
+                      sku={cardData.sku}
                 />)
             }
             </div>
-          <button id="ShowMoreBtn">Show More</button>
+          <button id="ShowMoreBtn" onClick={()=>{setCardsCounter(cardsCounter+4)}}>
+            Show More
+            </button>
         </section>
 
         <section className="FourthSectionMain">

@@ -32,6 +32,10 @@
     flex-direction: column;
     gap: 1.5rem;
 }
+.ProductImgGallery img{
+    width: 100px;
+    /* height: 100px; */
+}
 .SingleProductImg{
     width: 481px;
     height: 500px;

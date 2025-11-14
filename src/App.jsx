@@ -7,9 +7,9 @@ import Contact from './Contact.jsx'
 import Blog from './Blog.jsx'
 import SingleProduct from './SingleProduct.jsx'
 import ProductComarison from './ProductComarison.jsx'
+
 import { Routes, Route } from "react-router-dom";
 export default function App (){
-
     return <>
     <Routes>
         <Route path="/" element={<Home />} />
@@ -17,8 +17,8 @@ export default function App (){
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/checkout" element={<Checkout />} />
-        <Route path="/singleproduct" element={<SingleProduct />} />
+        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/singleproduct/:sku" element={<SingleProduct />} />
         <Route path="/productcomarison" element={<ProductComarison />} />
     </Routes>
     </>;

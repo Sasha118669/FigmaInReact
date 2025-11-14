@@ -5,6 +5,8 @@ import Footer from './Footer.jsx'
 import Card from './Card.jsx'
 import CardsData from './CardsData.js'
 import SingleProductCard from './SingleProductCard.jsx'
+import { useState, useEffect } from "react";
+import { useParams } from 'react-router-dom';
 import {
  HeartIcon,
   SearchIcon,
@@ -50,26 +52,41 @@ import {
   DescriptionImg
 } from './assest.js';
 export default function SingleProduct (){
+const [cardsCounter, setCardsCounter] = useState(4)
+    const { sku } = useParams();
+    const [product, setProduct] = useState(null); 
 
+    useEffect(() => {
+    const fetchedProduct = getProductById(sku); 
+    setProduct(fetchedProduct);
+  }, [sku]); 
+
+  function getProductById(){
+      return CardsData.find((cardData) => cardData.sku === sku);
+    }
+    if (!product) {
+    return <div>Loading...</div>;
+  } 
     return <>
     <Header/>
 
     <main className="Main">
         <div className="SingleProductCardContainer">
         <SingleProductCard
-        SingleProductCardName="Asgard sofa"
-        SingleProductImg = {SingleProductImg}
-        SingleProductImg1 = {SingleProductImg1}
-        SingleProductImg2 = {SingleProductImg2}
-        SingleProductImg3 = {SingleProductImg3}
-        SingleProductImg4 = {SingleProductImg4}
-        SingleProductCardPrice="Rs. 250,000.00"
-        Size1 ="L"
-        Size2 ="XL"
-        Size3 ="XS"
-        Sku="SS001"
-        Category="Sofas"
-        Tags="Sofa, Chair, Home, Shop"
+        SingleProductCardName={product.productName}
+        SingleProductImg = {product.img}
+        SingleProductImg1 = {product.img1}
+        SingleProductImg2 = {product.img2}
+        SingleProductImg3 = {product.img3}
+        SingleProductImg4 = {product.img4}
+        SingleProductCardPrice={product.price}
+        Size1 ={product.size1}
+        Size2 ={product.size2}
+        Size3 ={product.size3}
+        Sku={product.sku}
+        Category={product.category}
+        Tags={product.tags}
+        product = {product}
         />
         </div>
 
@@ -99,8 +116,9 @@ export default function SingleProduct (){
             <div className="Shelf">
 {
                 CardsData.map((cardData, i)=> 
-                i >= 4 ? null : 
+                i >= cardsCounter ? null : 
                 <Card 
+                key={i}
                 img={cardData.img}
                       discount={cardData.discount}
                       newItem={cardData.newItem}
@@ -108,10 +126,13 @@ export default function SingleProduct (){
                       shortDescription={cardData.shortDescription}
                       price={cardData.price}
                       fixPrice={cardData.fixPrice}
+                      sku={cardData.sku}
                 />)
             }
             </div>
-            <button id="ShowMoreBtn">Show More</button>
+            <button id="ShowMoreBtn" onClick={()=>{setCardsCounter(cardsCounter+4)}}>
+                Show More
+                </button>
         </div>
     </main>
 

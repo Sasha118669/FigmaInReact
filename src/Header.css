@@ -57,3 +57,7 @@
     height: 28px;
     border: none;
 }
+.MyHeaderLink{
+    text-decoration: none;
+    color: #000;
+}

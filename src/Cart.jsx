@@ -5,6 +5,9 @@ import Footer from "./Footer.jsx";
 import Advantages from "./Advantages.jsx";
 import MainCover from "./MainCover.jsx";
 import CardInCart from "./CardInCart.jsx";
+import { useContext } from "react";
+import { CartContext } from "./CartContext";
+import SingleProductCard from './SingleProductCard.jsx'
 import {
   HeartIcon,
   SearchIcon,
@@ -49,7 +52,7 @@ import {
 } from "./assest.js";
 
 export default function Cart() {
-
+const {cardsArr} = useContext(CartContext);
     return<>
     <Header/>
 
@@ -57,12 +60,20 @@ export default function Cart() {
         <MainCover pageName={"Cart"} />
 
           <section className="CartContainer">
-                <CardInCart
-                Img={AsgaardSofa5}
-                Product="Asgaard sofa"
-                Price="Rs. 250,000.00"
-                Subtotal="Rs. 250,000.00"
+            <div className="CartCardsContainer">
+             {
+            cardsArr.map((card, i) =>
+              <CardInCart
+            key = {i}
+                Img={card.img}
+                Product={card.productName}
+                Price={card.price}
+                Subtotal={card.price}
                 />
+            )
+            }
+            </div>
+               
                 <div className="CartContent">
                       <h2>Cart Totals</h2>
 

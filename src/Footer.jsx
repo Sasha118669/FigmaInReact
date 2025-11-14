@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import { Link } from "react-router-dom";
 
 export default function Footer (){
     return <>
@@ -15,10 +16,10 @@ FL 33134 USA</p>
 
 <div className="FooterNavSect1">
     <h2>Links</h2>
-    <a>Home</a>
-    <a>Shop</a>
-    <a>About</a>
-    <a>Contact</a>
+    <Link to="/" className="MyFooterLink">Home</Link>
+        <Link to="/shop" className="MyFooterLink">Shop</Link>
+        <Link to="/blog" className="MyFooterLink">About</Link>
+        <Link to="/contact" className="MyFooterLink">Contact</Link>
 </div>
 
 <div className="FooterNavSect1">
