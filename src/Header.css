@@ -19,6 +19,9 @@
     justify-content: center;
     align-items: center;
 }
+.NavHeader2 button{
+background-color: #fff;
+}
 .LogoHeader {
     width: 185px;
     height: 41px;
@@ -48,7 +51,6 @@
 }
 .NavHeader2{
     border: 2px solid;
-    /* position: relative; */
     gap: 75px;
     height: 41px;
 }
@@ -60,4 +62,355 @@
 .MyHeaderLink{
     text-decoration: none;
     color: #000;
+}
+
+
+.Burger{
+display: none;
+}
+/* скрываем checkbox */
+.burger-checkbox {
+  display: none;
+}
+
+/* бургер иконка */
+.burger {
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  z-index: 11;
+}
+
+.burger span {
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* крестик */
+.burger-checkbox:checked + .burger span:nth-child(1) {
+  transform: rotate(45deg) translateY(9px);
+}
+
+.burger-checkbox:checked + .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-checkbox:checked + .burger span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-9px);
+}
+
+/* меню */
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 220px;
+  height: 100vh;
+  background: white;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.3s ease;
+  box-shadow: -4px 0 10px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+/* когда открыт */
+.burger-checkbox:checked ~ .burger-menu {
+  right: 0;
+}
+
+.burger-menu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/* 1. Маленькие телефоны */
+@media (min-width: 380px) and (max-width: 480px) {
+    .Header {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.ContentHeader {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+        justify-content: space-between;
+}
+.NavHeader2 button{
+max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LogoHeader {
+    width: fit-content;
+    max-width: var(--box-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.LogoHeader img{
+    height: auto;
+}
+.LogoHeader h2{
+    font-size: var(--title-lg);
+}
+.NavHeader1{
+    width: 100%;
+    height: auto;
+    gap: 25px;
+    display: none;/*это убрать и сделать бургер меню*/
+}
+.NavHeader1 a{
+    font-size: var(--text-base);
+
+}
+.NavHeader2{
+    gap: 25px;
+    height: auto;
+}
+.NavHeader2 button {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.MyHeaderLink{
+    font-size: var(--text-base);
+}
+.Burger{
+display: block;
+}
+}
+
+/* 2. Телефоны */
+@media (min-width: 481px) and (max-width: 768px) {
+    .Header {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.ContentHeader {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+        justify-content: space-between;
+}
+.NavHeader2 button{
+max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LogoHeader {
+    width: fit-content;
+    max-width: var(--box-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.LogoHeader img{
+    height: auto;
+}
+.LogoHeader h2{
+    font-size: var(--title-lg);
+}
+.NavHeader1{
+    width: 100%;
+    height: auto;
+    gap: 25px;
+    display: none;/*это убрать и сделать бургер меню*/
+}
+.NavHeader1 a{
+    font-size: var(--text-base);
+
+}
+.NavHeader2{
+    gap: 25px;
+    height: auto;
+}
+.NavHeader2 button {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.MyHeaderLink{
+    font-size: var(--text-base);
+}
+.Burger{
+display: block;
+}
+}
+
+/* 3. Планшеты */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Header {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.ContentHeader {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+        justify-content: space-between;
+}
+.NavHeader2 button{
+max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LogoHeader {
+    width: fit-content;
+    max-width: var(--box-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.LogoHeader img{
+    height: auto;
+}
+.LogoHeader h2{
+    font-size: var(--title-lg);
+}
+.NavHeader1{
+    width: 100%;
+    height: auto;
+    gap: 25px;
+}
+.NavHeader1 a{
+    font-size: var(--text-base);
+
+}
+.NavHeader2{
+    gap: 25px;
+    height: auto;
+}
+.NavHeader2 button {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.MyHeaderLink{
+    font-size: var(--text-base);
+}
+}
+
+/* 4. Маленькие ноуты */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .Header {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.ContentHeader {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+        justify-content: space-between;
+}
+.NavHeader2 button{
+max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LogoHeader {
+    width: fit-content;
+    max-width: var(--box-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.LogoHeader img{
+    height: auto;
+}
+.LogoHeader h2{
+    font-size: var(--title-lg);
+}
+.NavHeader1{
+    width: fit-content;
+    height: auto;
+    gap: 25px;
+}
+.NavHeader1 a{
+    font-size: var(--text-base);
+
+}
+.NavHeader2{
+    gap: 25px;
+    height: auto;
+}
+.NavHeader2 button {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.MyHeaderLink{
+    font-size: var(--text-base);
+}
+}
+
+/* 5. Ноуты (до твоего максимума 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .Header {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.ContentHeader {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+        justify-content: space-between;
+}
+.NavHeader2 button{
+max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LogoHeader {
+    width: fit-content;
+    max-width: var(--box-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.LogoHeader img{
+    height: auto;
+}
+.LogoHeader h2{
+    font-size: var(--title-lg);
+}
+.NavHeader1{
+    width: fit-content;
+    height: auto;
+    gap: 25px;
+}
+.NavHeader1 a{
+    font-size: var(--text-base);
+
+}
+.NavHeader2{
+    gap: 25px;
+    height: auto;
+}
+.NavHeader2 button {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.MyHeaderLink{
+    font-size: var(--text-base);
+}
 }

@@ -8,6 +8,7 @@ import CardInCart from "./CardInCart.jsx";
 import { useContext } from "react";
 import { CartContext } from "./CartContext";
 import SingleProductCard from './SingleProductCard.jsx'
+import { Link } from "react-router-dom";
 import {
   HeartIcon,
   SearchIcon,
@@ -52,7 +53,7 @@ import {
 } from "./assest.js";
 
 export default function Cart() {
-const {cardsArr} = useContext(CartContext);
+const {cardsArr, subtotal} = useContext(CartContext);
     return<>
     <Header/>
 
@@ -79,15 +80,17 @@ const {cardsArr} = useContext(CartContext);
 
                       <div className="CartContentSubtotal">
                         <h3>Subtotal</h3>
-                        <p>Rs. 250,000.00</p>
+                        <p>{subtotal}</p>
                       </div>
 
                       <div className="CartContentTotal">
                         <h3>Total</h3>
-                        <p>Rs. 250,000.00</p>
+                        <p>{subtotal}</p>
                       </div>
 
+                      <Link to="/checkout">
                       <button id="CheckOutBtn">Check Out</button>
+                      </Link>
                 </div>
           </section>
 

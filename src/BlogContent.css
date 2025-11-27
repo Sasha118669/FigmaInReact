@@ -103,3 +103,175 @@
     font-size: 12px;
     color: gray;
 }
+
+@media (min-width: 380px) and (max-width: 480px) {
+.BlogContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+.LeftSideBlogContent{
+ max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent img{
+    width: 100%;
+    /* max-width: var(--box-width); */
+}
+.LeftSideBlogContainer{
+       max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent h2{
+    font-size: var(--title-xl);
+}
+.BlogContentInfoDescription{
+    font-size: var(--title-sm);
+}
+.LeftSideBlogContent button{
+        max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LeftSideBlogContentInfo{
+    gap: 0;
+    justify-content: space-between;
+}
+.RightSideBlogContent{
+    display: none;
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+.BlogContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+.LeftSideBlogContent{
+ max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent img{
+    width: 100%;
+    /* max-width: var(--box-width); */
+}
+.LeftSideBlogContainer{
+       max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent h2{
+    font-size: var(--title-xl);
+}
+.BlogContentInfoDescription{
+    font-size: var(--title-sm);
+}
+.LeftSideBlogContent button{
+        max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LeftSideBlogContentInfo{
+    gap: 0;
+    justify-content: space-between;
+}
+.RightSideBlogContent{
+    display: none;
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+.BlogContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+.LeftSideBlogContent{
+ max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent img{
+    width: 100%;
+    /* max-width: var(--box-width); */
+}
+.LeftSideBlogContainer{
+       max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent h2{
+    font-size: var(--title-xl);
+}
+.BlogContentInfoDescription{
+    font-size: var(--title-sm);
+}
+.LeftSideBlogContent button{
+        max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LeftSideBlogContentInfo{
+    gap: 0;
+    justify-content: space-between;
+}
+.RightSideBlogContent{
+    display: none;
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+.BlogContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+.LeftSideBlogContent{
+ max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent img{
+    width: 100%;
+    /* max-width: var(--box-width); */
+}
+.LeftSideBlogContainer{
+       max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.LeftSideBlogContent h2{
+    font-size: var(--title-xl);
+}
+.BlogContentInfoDescription{
+    font-size: var(--title-sm);
+}
+.LeftSideBlogContent button{
+        max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.LeftSideBlogContentInfo{
+    gap: 0;
+    justify-content: space-between;
+}
+.RightSideBlogContent{
+    display: none;
+}
+}

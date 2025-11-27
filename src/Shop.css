@@ -19,6 +19,9 @@
     color: rgb(199, 199, 199);
     font-size: 36px;
 }
+.ShowingResults p{
+    font-size: var(--title-base) !important;
+}
 .FilterElement{
     display: flex;
     align-items: center;
@@ -38,10 +41,135 @@
     width: fit-content;
     font-size: 16px;
 }
+.ShopContetn{
+    width: 1236px;
+    border: 2px solid green;
+}
 
+@media (min-width: 380px) and (max-width: 480px) {
+.ShopFilter{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.ShopContetn{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
 .Shelf{
-    border: 2px solid yellow;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+.RightSideFilter{
+    display: none;
+}
+.LeftSideFilter p{
+    font-size: var(--title-xl);
+}
+.FilterElement{
+    gap: 1rem;
+}
+.FilterElement p{
+    font-size: var(--title-base);
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+.ShopFilter{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.ShopContetn{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+.RightSideFilter{
+    display: none;
+}
+.LeftSideFilter p{
+    font-size: var(--title-xl);
+}
+.FilterElement{
+    gap: 1rem;
+}
+.FilterElement p{
+    font-size: var(--title-base);
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+.ShopFilter{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.ShopContetn{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+.RightSideFilter{
+    display: none;
+}
+.LeftSideFilter p{
+    font-size: var(--title-xl);
+}
+.FilterElement{
+    gap: 1rem;
+}
+.FilterElement p{
+    font-size: var(--title-base);
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+.ShopFilter{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.ShopContetn{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+.RightSideFilter{
+    display: none;
+}
+.LeftSideFilter p{
+    font-size: var(--title-xl);
+}
+.FilterElement{
+    gap: 1rem;
+}
+.FilterElement p{
+    font-size: var(--title-base);
+}
 }

@@ -1,3 +1,9 @@
+.myTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px; /* чтобы таблица не сжималась слишком сильно */
+}
+
 .myTable th,
 .myTable td {
   padding: 10px 15px;
@@ -11,4 +17,77 @@
 }
 .myTable img{
   width: 108px;
+}
+
+@media (min-width: 380px) and (max-width: 480px) {
+.myTableWrapper {
+    max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    border: 2px solid red;
+}
+  .myTable{
+    /* width: max-content;
+    height: auto;
+    border-collapse: collapse; */
+    border: 2px solid green;
+    /* display: none; */
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+.myTableWrapper {
+     max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+}
+  .myTable{
+    width: max-content;
+    height: auto;
+    border-collapse: collapse;
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+.myTableWrapper {
+     max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+}
+  .myTable{
+    width: max-content;
+    height: auto;
+    border-collapse: collapse;
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+.myTableWrapper {
+     max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+}
+  .myTable{
+    width: max-content;
+    height: auto;
+    border-collapse: collapse;
+}
 }

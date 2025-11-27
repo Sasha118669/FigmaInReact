@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./CartIconBackdrop.css";
 import ShopingCartBox from "./ShopingCartBox.jsx";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "./CartContext";
 import {
   HeartIcon,
   BagDeleteIcon,
@@ -14,6 +16,7 @@ import {
 } from "./assest.js";
 
 export default function CartIconBackdrop({ setClicked }) {
+  const {cardsArr, subtotal} = useContext(CartContext);
   return (
     <>
       <div
@@ -35,21 +38,19 @@ export default function CartIconBackdrop({ setClicked }) {
 
         
           <div className="ShopingCartContent">
-            <ShopingCartBox
-              ShopingCartBoxImg={ShopingCartBoxImg1}
-              ShopingCartName="Asgaard sofa"
-              ShopingCartBoxTotal="Rs. 250,000.00"
-            />
-            <ShopingCartBox
-              ShopingCartBoxImg={ShopingCartBoxImg1}
-              ShopingCartName="Asgaard sofa"
-              ShopingCartBoxTotal="Rs. 250,000.00"
-            />
+            {
+              cardsArr.map((card, i) => 
+              <ShopingCartBox
+              ShopingCartBoxImg={card.img}
+              ShopingCartName={card.productName}
+              ShopingCartBoxTotal={card.price}
+            />)
+            }
           </div>
 
           <div className="ShopingCartSubtotal">
             <h2>Subtotal</h2>
-            <input type="text" value="Rs. 520,000.00" disabled />
+            <input type="text" value={subtotal} disabled />
           </div>
 
           <div className="ShopingCartNav">

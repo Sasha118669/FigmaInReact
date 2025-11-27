@@ -147,3 +147,133 @@
     border: none;
     width: 30%;
 }
+@media (min-width: 380px) and (max-width: 480px) {
+.SingleProductCard{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.SingleProductCardNav{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+
+.Slash{
+    font-size: var(--text-base) !important;
+}
+.SingleProductCardContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.SingleProductCardLeftContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.ProductImgGallery{
+    gap: 1rem;
+}
+.ProductImgGallery img{
+    width: 100%;
+    max-width: 100px;
+}
+.SingleProductImg{
+    width: var(--img-width);
+    height: auto;
+    object-fit: contain;
+}
+
+.SingleProductCardRightContent{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+}
+.SingleProductCardRightTitle h2{
+    font-size: var(--title-xl);
+}
+.SingleProductCardRightTitle p{
+    font-size: var(--title-md);
+    color: gray;
+}
+.SingleProductCardRightContentGrade{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.SingleProductCardRightContentGrade p{
+    color: gray;
+    font-size: var(--title-sm);
+}
+.SingleProductCardRightContentDeskription{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.Size,
+.Color{
+   max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+}
+.SingleProductCardRightContentInfo{
+   max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+/* .SingleProductContentInfo{
+    display: flex;
+    gap: 1rem;
+} */
+.SingleProductContentInfo p{
+    font-size: var(--title-bace);
+}
+/* .SingleProductContentInfoName{
+    width: 80px;
+} */
+.SingleProductOrder{
+    display: flex;
+    gap: 1rem;
+}
+.SingleProductOrder button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+/* .SingleProductCounter{
+    max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+} */
+/* .SingleProductCounter input{
+    text-align: center;
+    width: 30px;
+}
+.SingleProductCounter button{
+    border: none;
+    width: 30%;
+} */
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+
+}

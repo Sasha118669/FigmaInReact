@@ -64,7 +64,9 @@ export default function Shop (){
                       <AlignJustifyIcon/>
 
                   <p>|</p>
-                    <input type="text" placeholder=" Showing 1–16 of 32 results" disabled/>
+                  <div className="ShowingResults">
+                  <p>Showing 1–16 of 32 results</p>
+                  </div>
               </div>
 
               <div className="RightSideFilter">
@@ -80,8 +82,8 @@ export default function Shop (){
               </div>
       </section>
 
-        <section className='MainContetn'>
-          <div className='SwiperContent'>
+        <div className='ShopContetn'>
+
                <CustomSwiper 
                content1 = {
                <div className="Shelf">
@@ -103,8 +105,7 @@ export default function Shop (){
             </div>   
               }
                />
-               </div>
-        </section>
+        </div>
 
 <Advantages/>
     </main>

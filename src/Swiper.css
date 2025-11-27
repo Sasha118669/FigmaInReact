@@ -34,3 +34,101 @@
   right: 0;
   margin-inline: auto; 
 }
+/* 1. Маленькие телефоны */
+@media (max-width: 480px) {
+.mySwiper {
+  display: none;
+}
+}
+
+/* 2. Телефоны */
+@media (min-width: 481px) and (max-width: 768px) {
+  .mySwiper {
+  display: none;
+}
+}
+
+/* 3. Планшеты */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .mySwiper {
+  display: none;
+}
+}
+
+/* 4. Маленькие ноуты */
+@media (min-width: 1025px) and (max-width: 1280px) {
+.mySwiper {
+  padding: 20px;
+  width: 100%;
+  max-width: 648px;
+  height: auto;
+}
+.SwiperSlide{
+    display: flex;
+    gap: 1rem;
+}
+.SwiperSlide img{
+    width: 304px;
+    height: 486px;
+    border: 2px solid;
+}
+.mySwiper .swiper-pagination{
+  margin-left: 10px;
+  width: fit-content;
+}
+.mySwiper .swiper-pagination-bullet {
+  background: #B88E2F;
+}
+.mySwiper .swiper-button-prev {
+  display: none;
+}
+.mySwiper .swiper-button-next {
+  color: #B88E2F;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  margin-inline: auto; 
+}
+}
+
+/* 5. Ноуты (до твоего максимума 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .mySwiper {
+  padding: 20px;
+  width: 100%;
+  max-width: 648px;
+  height: auto;
+}
+.SwiperSlide{
+    display: flex;
+    gap: 1rem;
+}
+.SwiperSlide img{
+    width: 304px;
+    height: 486px;
+    border: 2px solid;
+}
+.mySwiper .swiper-pagination{
+  margin-left: 10px;
+  width: fit-content;
+}
+.mySwiper .swiper-pagination-bullet {
+  background: #B88E2F;
+}
+.mySwiper .swiper-button-prev {
+  display: none;
+}
+.mySwiper .swiper-button-next {
+  color: #B88E2F;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  margin-inline: auto; 
+}
+}

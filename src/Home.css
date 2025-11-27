@@ -221,3 +221,585 @@ font-weight: lighter;
     width: 206px;
     height: 196px;
 }
+
+/* 1. Маленькие телефоны */
+@media (min-width: 380px) and (max-width: 480px) {
+    .FirstSectionMain{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    }
+    .Box{
+    width: 100%;
+    max-width: var(--box-width);
+    height: auto;
+    gap: 1rem;
+}
+#BuyBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.SecondSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.TitleInSecondSectionMain{
+    height: auto;
+}
+.TitleInSecondSectionMain h2{
+    font-size: var(--title-lg);
+
+}
+.TitleInSecondSectionMain p{
+    font-size: var(--text-base);
+}
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+.Presentation figcaption{
+    font-size: var(--text-base);
+}
+.Presentation img{
+    width:  100%;
+    max-width: var(--img-width);
+    height: auto;
+}
+.ThirdSectionMain {
+    width: 100%;
+    max-width: var(--container-width);
+}
+.ThirdSectionMain h2{
+    font-size: var(--title-lg);
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+#ShowMoreBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.FourthSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.FourthSectionInfo{
+    width: 50%;
+}
+.FourthSectionInfo h2{
+    font-size: var(--title-xl);
+    width: 100%;
+    height: auto;
+}
+.FourthSectionInfo button{
+    max-width: var(--btn-width);
+    height: 100%;
+    font-size: var(--btn-font);
+}
+.FourthSectionContentContainer{
+    display: flex;
+    border: 2px solid red;
+    width: 60%;
+}
+.FourthSectionContent{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.FourthSectionContent button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+.FourthSectionContainer h3{
+    font-size: var(--title-xl);
+}
+.FourthSectionContainer p{
+    font-size: var(--text-base);
+}
+
+.FifthSectionMain{
+    display: none;
+}
+ }
+/* 2. Телефоны */
+@media (min-width: 481px) and (max-width: 768px) {
+    .FirstSectionMain{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    }
+    .Box{
+    width: 100%;
+    max-width: var(--box-width);
+    height: auto;
+    gap: 1rem;
+}
+#BuyBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.SecondSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.TitleInSecondSectionMain{
+    height: auto;
+}
+.TitleInSecondSectionMain h2{
+    font-size: var(--title-lg);
+
+}
+.TitleInSecondSectionMain p{
+    font-size: var(--text-base);
+}
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+.Presentation figcaption{
+    font-size: var(--text-base);
+}
+.Presentation img{
+    width:  100%;
+    max-width: var(--img-width);
+    height: auto;
+}
+.ThirdSectionMain {
+    width: 100%;
+    max-width: var(--container-width);
+}
+.ThirdSectionMain h2{
+    font-size: var(--title-lg);
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+    justify-content: center !important;
+}
+#ShowMoreBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.FourthSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.FourthSectionInfo{
+    width: 50%;
+}
+.FourthSectionInfo h2{
+    font-size: var(--title-xl);
+    width: 100%;
+    height: auto;
+}
+.FourthSectionInfo button{
+    max-width: var(--btn-width);
+    height: 100%;
+    font-size: var(--btn-font);
+}
+.FourthSectionContentContainer{
+    display: flex;
+    border: 2px solid red;
+    width: 60%;
+}
+.FourthSectionContent{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.FourthSectionContent button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+.FourthSectionContainer h3{
+    font-size: var(--title-xl);
+}
+.FourthSectionContainer p{
+    font-size: var(--text-base);
+}
+
+.FifthSectionMain{
+    display: none;
+}
+}
+
+/* 3. Планшеты */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .FirstSectionMain{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    }
+    .Box{
+    width: 100%;
+    max-width: var(--box-width);
+    height: auto;
+    gap: 1rem;
+}
+#BuyBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.SecondSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.TitleInSecondSectionMain{
+    height: auto;
+}
+.TitleInSecondSectionMain h2{
+    font-size: var(--title-lg);
+
+}
+.TitleInSecondSectionMain p{
+    font-size: var(--text-base);
+}
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+.Presentation figcaption{
+    font-size: var(--text-base);
+}
+.Presentation img{
+    width:  100%;
+    max-width: var(--img-width);
+    height: auto;
+}
+.ThirdSectionMain {
+    width: 100%;
+    max-width: var(--container-width);
+}
+.ThirdSectionMain h2{
+    font-size: var(--title-lg);
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+}
+#ShowMoreBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.FourthSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.FourthSectionInfo{
+    width: 50%;
+}
+.FourthSectionInfo h2{
+    font-size: var(--title-xl);
+    width: 100%;
+    height: auto;
+}
+.FourthSectionInfo button{
+    max-width: var(--btn-width);
+    height: 100%;
+    font-size: var(--btn-font);
+}
+.FourthSectionContentContainer{
+    display: flex;
+    border: 2px solid red;
+    width: 60%;
+}
+.FourthSectionContent{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.FourthSectionContent button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+.FourthSectionContainer h3{
+    font-size: var(--title-xl);
+}
+.FourthSectionContainer p{
+    font-size: var(--text-base);
+}
+
+.FifthSectionMain{
+    display: none;
+}
+}
+
+/* 4. Маленькие ноуты */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .FirstSectionMain{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    }
+    .Box{
+    width: 100%;
+    max-width: var(--box-width);
+    height: auto;
+    gap: 1rem;
+}
+#BuyBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.SecondSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.TitleInSecondSectionMain{
+    height: auto;
+}
+.TitleInSecondSectionMain h2{
+    font-size: var(--title-lg);
+
+}
+.TitleInSecondSectionMain p{
+    font-size: var(--text-base);
+}
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+.Presentation figcaption{
+    font-size: var(--text-base);
+}
+.Presentation img{
+    width:  100%;
+    max-width: var(--img-width);
+    height: auto;
+}
+.ThirdSectionMain {
+    width: 100%;
+    max-width: var(--container-width);
+}
+.ThirdSectionMain h2{
+    font-size: var(--title-lg);
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+}
+#ShowMoreBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.FourthSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.FourthSectionInfo{
+    width: 30%;
+    border: 2px solid green;
+    display: none;
+}
+.FourthSectionInfo h2{
+    font-size: var(--title-xl);
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+.FourthSectionInfo button{
+    max-width: var(--btn-width);
+    height: 100%;
+    font-size: var(--btn-font);
+}
+.FourthSectionContentContainer{
+    display: flex;
+    border: 2px solid green;
+    width: 100%;
+}
+.FourthSectionContent{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.FourthSectionContent button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    /* width: 100%; */
+    height: auto;
+}
+.FourthSectionContainer h3{
+    font-size: var(--title-xl);
+}
+.FourthSectionContainer p{
+    font-size: var(--text-base);
+}
+
+.FifthSectionMain{
+    display: none;
+}
+}
+
+/* 5. Ноуты (до твоего максимума 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+         .FirstSectionMain{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+    }
+    .Box{
+    width: 100%;
+    max-width: var(--box-width);
+    height: auto;
+    gap: 1rem;
+}
+#BuyBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.SecondSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.TitleInSecondSectionMain{
+    height: auto;
+}
+.TitleInSecondSectionMain h2{
+    font-size: var(--title-lg);
+
+}
+.TitleInSecondSectionMain p{
+    font-size: var(--text-base);
+}
+.Presentation{
+    display: flex;
+    justify-content: space-between;
+}
+.Presentation figcaption{
+    font-size: var(--text-base);
+}
+.Presentation img{
+    width:  100%;
+    max-width: var(--img-width);
+    height: auto;
+}
+.ThirdSectionMain {
+    width: 100%;
+    max-width: var(--container-width);
+}
+.ThirdSectionMain h2{
+    font-size: var(--title-lg);
+}
+.Shelf{
+    width: 100%;
+    max-width: var(--container-width);
+}
+#ShowMoreBtn{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+
+.FourthSectionMain{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    justify-content: space-between;
+    gap: 0;
+}
+.FourthSectionInfo{
+    width: 30%;
+    border: 2px solid green;
+    display: none;
+}
+.FourthSectionInfo h2{
+    font-size: var(--title-xl);
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+.FourthSectionInfo button{
+    max-width: var(--btn-width);
+    height: 100%;
+    font-size: var(--btn-font);
+}
+.FourthSectionContentContainer{
+    display: flex;
+    border: 2px solid green;
+    width: 100%;
+}
+.FourthSectionContent{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.FourthSectionContent button{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.FourthSectionContainer{
+    background-color: #fff;
+    /* width: 100%; */
+    height: auto;
+}
+.FourthSectionContainer h3{
+    font-size: var(--title-xl);
+}
+.FourthSectionContainer p{
+    font-size: var(--text-base);
+}
+
+.FifthSectionMain{
+    display: none;
+}
+}

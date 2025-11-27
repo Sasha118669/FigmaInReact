@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import Card from "./Card.jsx";
 import CardsData from "./CardsData.js";
+import './global.css';
+import './responsive.css';
+import "./Home.css";
 import {
   HeartIcon,
   SearchIcon,
@@ -32,7 +35,6 @@ import {
   RightSideImg3,
   RightSideImg4,
 } from "./assest.js";
-import "./Home.css";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Swiper from "./Swiper.jsx";

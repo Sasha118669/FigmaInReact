@@ -4,6 +4,8 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import './global.css';
+import './responsive.css';
 import './Swiper.css'
 import HomeSwiperImg1 from './assets/pictures/HomeSwiperImg1.png'
 import HomeSwiperImg2 from './assets/pictures/HomeSwiperImg2.png'

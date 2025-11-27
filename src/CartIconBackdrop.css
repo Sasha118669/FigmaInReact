@@ -44,6 +44,8 @@
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 100px;
+    height: 450px;
+    overflow: auto;
 }
 .ShopingCartSubtotal{
     display: flex;
@@ -71,4 +73,96 @@
     text-decoration: none;
     color: #000;
     padding: 10px 20px;
+}
+
+@media (min-width: 380px) and (max-width: 480px) {
+.CartIconBackdrop{
+    width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCartContainer{
+width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCart{
+    max-width: var(--container-width);
+    gap: 1rem;
+    padding: 15px;
+}
+.ShopingCartContent{
+    margin-bottom: 50px;
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+.CartIconBackdrop{
+    width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCartContainer{
+width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCart{
+    max-width: var(--container-width);
+    gap: 1rem;
+    padding: 15px;
+}
+.ShopingCartContent{
+    margin-bottom: 50px;
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+.CartIconBackdrop{
+    width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCartContainer{
+width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCart{
+    max-width: var(--container-width);
+    gap: 1rem;
+    padding: 15px;
+}
+.ShopingCartContent{
+    margin-bottom: 50px;
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+.CartIconBackdrop{
+    width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCartContainer{
+width: 100%;
+    max-width: var(--container-width);
+    height: 100%;
+}
+.ShopingCart{
+    max-width: var(--container-width);
+    gap: 1rem;
+    padding: 15px;
+}
+.ShopingCartContent{
+    margin-bottom: 50px;
+}
 }

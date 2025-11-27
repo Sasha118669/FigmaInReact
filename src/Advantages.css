@@ -29,3 +29,35 @@
     font-size: 20px;
     color: gray;
 }
+
+@media (min-width: 380px) and (max-width: 480px) {
+.Advantages{
+display: none;
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+.Advantages{
+display: none;
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+.Advantages{
+display: none;
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+.Advantages{
+display: none;
+}
+}

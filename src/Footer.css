@@ -70,3 +70,281 @@
     width: 100%;
     height: 59px;
 }
+
+/* 1. Маленькие телефоны */
+@media (min-width: 380px) and (max-width: 480px) {
+    .Footer {
+      width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.Footer h2{
+   font-size: var(--text-base);
+}
+.FooterContent{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+     flex-direction: column;
+}
+.FooterInfo{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo h2{
+    font-size: var(--title-lg);
+}
+.FooterNav{
+  width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
+    font-size: var(--text-base);
+}
+.MyFooterLink{
+    font-size: var(--text-base);
+}
+.FooterComent {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+     width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+}
+
+/* 2. Телефоны */
+@media (min-width: 481px) and (max-width: 768px) {
+   .Footer {
+      width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.Footer h2{
+   font-size: var(--text-base);
+}
+.FooterContent{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+     flex-direction: column;
+}
+.FooterInfo{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo h2{
+    font-size: var(--title-lg);
+}
+.FooterNav{
+  width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
+    font-size: var(--text-base);
+}
+.MyFooterLink{
+    font-size: var(--text-base);
+}
+.FooterComent {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+     width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+}
+
+/* 3. Планшеты */
+@media (min-width: 769px) and (max-width: 1024px) {
+   .Footer {
+      width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.Footer h2{
+   font-size: var(--text-base);
+}
+.FooterContent{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+     flex-direction: column;
+}
+.FooterInfo{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo h2{
+    font-size: var(--title-lg);
+}
+.FooterNav{
+  width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
+    font-size: var(--text-base);
+}
+.MyFooterLink{
+    font-size: var(--text-base);
+}
+.FooterComent {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+     width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+}
+
+/* 4. Маленькие ноуты */
+@media (min-width: 1025px) and (max-width: 1280px) {
+       .Footer {
+      width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.Footer h2{
+   font-size: var(--text-base);
+}
+.FooterContent{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo h2{
+    font-size: var(--title-lg);
+}
+.FooterNav{
+  width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
+    font-size: var(--text-base);
+}
+.MyFooterLink{
+    font-size: var(--text-base);
+}
+.FooterComent {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+     width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+}
+
+/* 5. Ноуты (до твоего максимума 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+           .Footer {
+      width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.Footer h2{
+   font-size: var(--text-base);
+}
+.FooterContent{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo{
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterInfo h2{
+    font-size: var(--title-lg);
+}
+.FooterNav{
+  width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterNavSect1,
+.FooterNavSect2{
+    display: flex;
+    flex-direction: column;
+}
+.FooterNav a{
+    font-size: var(--text-base);
+}
+.MyFooterLink{
+    font-size: var(--text-base);
+}
+.FooterComent {
+    width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+.FooterComent button{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.Qualiification{
+     width: 100%;
+        max-width: var(--container-width);
+        height: auto;
+}
+}

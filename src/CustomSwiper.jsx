@@ -36,15 +36,15 @@ export default function CustomSwiper({ content1}) {
       <div className="swiper-wrapper">
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1}</div>
+          <div className="swiper-content">{content1}</div>
         </div>
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1}</div>
+          <div className="swiper-content">{content1}</div>
         </div>
 
         <div className="swiper-slide CustomSwiperSlide">
-          <div>{content1}</div>
+          <div className="swiper-content">{content1}</div>
         </div>
 
       </div>

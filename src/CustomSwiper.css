@@ -39,3 +39,187 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+@media (min-width: 380px) and (max-width: 480px) {
+    .CustomSwiper{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-wrapper{
+        max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-content{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.custom-nav{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    margin: auto;
+}
+.custom-pagination{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.CustomSwiper .swiper-pagination-bullet {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.custom-next{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+}
+
+
+
+/* ---------- Планшеты 481–768px ---------- */
+@media (min-width: 481px) and (max-width: 768px) {
+    .CustomSwiper{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-wrapper{
+        max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-content{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.custom-nav{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    margin: auto;
+}
+.custom-pagination{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.CustomSwiper .swiper-pagination-bullet {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.custom-next{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+}
+
+
+
+/* ---------- Ноутбуки 769–1280px ---------- */
+@media (min-width: 769px) and (max-width: 1280px) {
+    .CustomSwiper{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-wrapper{
+        max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-content{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.custom-nav{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    margin: auto;
+}
+.custom-pagination{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.CustomSwiper .swiper-pagination-bullet {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.custom-next{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+}
+
+
+/* ---------- Большие ноуты до 1440px ---------- */
+@media (min-width: 1281px) and (max-width: 1440px) {
+   .CustomSwiper{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-wrapper{
+        max-width: var(--box-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.swiper-content{
+    max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.custom-nav{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+    margin: auto;
+}
+.custom-pagination{
+    width: 100%;
+    max-width: var(--container-width);
+    height: auto;
+}
+.CustomSwiper .swiper-pagination-bullet {
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+.custom-next{
+    max-width: var(--btn-width);
+    height: var(--btn-height);
+    font-size: var(--btn-font);
+}
+}

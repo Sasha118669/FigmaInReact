@@ -47,7 +47,7 @@ import {
 export default function CardInCart ({Img, Product, Price, Quantity, Subtotal}){
 
     return<>
-    <div className="CardInCartContainer">
+    <div className="myTableWrapper">
 
         <table className="myTable">
             <thead>

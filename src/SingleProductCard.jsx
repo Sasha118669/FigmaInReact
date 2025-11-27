@@ -46,14 +46,28 @@ import {
 } from './assest.js';
 export default function SingleProductCard ({SingleProductCardName, SingleProductImg, SingleProductImg1, SingleProductImg2, SingleProductImg3, SingleProductImg4, SingleProductCardPrice, Size1, Size2, Size3,Sku, Category, Tags, product}){
     let[value, setValue] = useState(1);
-const {setCardsArr} = useContext(CartContext);
+    const { setSubtotal, setCardsArr } = useContext(CartContext);
 
     function addToCart (){
         if(product){
-         console.log("Добавили в корзину:", product);
         setCardsArr(prev => [...prev, product]);
+
+        setSubtotal(prev => {
+        let prevNum = prev
+        if(isNaN(prevNum)){
+        prevNum = +(prevNum.split(" ")[1].replaceAll(".", "")); 
+         }
+        let productPrice = product.price;
+            if(isNaN(productPrice)){
+        productPrice = +(productPrice.split(" ")[1].replaceAll(".", "")); 
+         }
+         const totalPrice = prevNum + productPrice
+         const formattedTotalPrice = totalPrice.toLocaleString("id-ID");
+        return`Rp ${formattedTotalPrice}`
+      });  
      }
     }
+    
     return<>
     <section className="SingleProductCard">
 <div className="SingleProductCardNav">

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Check.css";
+import { useContext } from "react";
+import { CartContext } from "./CartContext";
 import {
   HeartIcon,
   SearchIcon,
@@ -43,22 +45,32 @@ import {
   AsgaardSofa5,
 } from "./assest.js";
 
-export default function Check({ProductPrice,SubtotalPrice, TotalPrice}) {
+export default function Check({ProductPrice,SubtotalPrice, TotalPrice, ProductName}) {
+const {cardsArr, subtotal} = useContext(CartContext);
 
+const productsInfo = cardsArr.map(card => {
+  return {
+    name: card.productName,
+    price: card.price
+  };
+});
     return<>
     <div className="CheckContainer">
         <div className="LeftSideCheck">
         <h2>Product</h2>
-        <div className="ProductCounter">
-        <p>Asgaard sofa</p>
-        <input type="text" value="x  1" disabled/>
-        </div>
+        {productsInfo.map((product, i) => (
+          <div key={i} className="ProductCounter">
+            <p>{product.name}</p>
+          </div>
+        ))}
         <p>Subtotal</p>
         <p>Total</p>
     </div>
     <div className="RightSideCheck">
         <h2>Subtotal</h2>
-        <p>{ProductPrice}</p>
+         {productsInfo.map((product, i) => (
+          <p key={i}>{product.price}</p>
+        ))}
         <p>{SubtotalPrice}</p>
         <h3>{TotalPrice}</h3>
     </div>

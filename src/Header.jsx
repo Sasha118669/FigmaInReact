@@ -21,7 +21,7 @@ export default function Header (){
             document.body.style.overflow = "auto";
         }
     }, [clicked])
-    
+
     return <>
     <header className='Header'>
     <section className='ContentHeader'>
@@ -48,6 +48,24 @@ export default function Header (){
         {clicked &&
             <CartIconBackdrop setClicked = {setClicked}/>
         }
+</div>
+
+
+<div className="Burger">
+<input type="checkbox" id="burger-toggle" className="burger-checkbox" />
+
+<label htmlFor="burger-toggle" className="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
+<div className="burger-menu">
+  <Link to="/">Home</Link>
+  <Link to="/shop">Shop</Link>
+  <Link to="/blog">About</Link>
+  <Link to="/contact">Contact</Link>
+</div>
 </div>
 
     </section>

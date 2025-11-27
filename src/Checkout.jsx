@@ -5,6 +5,9 @@ import Footer from "./Footer.jsx";
 import Advantages from "./Advantages.jsx";
 import MainCover from "./MainCover.jsx";
 import Check from "./Check.jsx";
+import { useContext } from "react";
+import { CartContext } from "./CartContext";
+import CardsData from './CardsData.js'
 import {
   HeartIcon,
   SearchIcon,
@@ -49,7 +52,7 @@ import {
 } from "./assest.js";
 
 export default function Checkout() {
-
+const {cardsArr, subtotal} = useContext(CartContext);
     return<>
     <Header/>
 
@@ -120,11 +123,12 @@ export default function Checkout() {
             </div>
 
             <div className="RightSideCheckoutContent">
+
                   <Check
-                  ProductPrice="Rs. 250,000.00"
-                  SubtotalPrice="Rs. 250,000.00"
-                  TotalPrice="Rs. 250,000.00"
+                  SubtotalPrice={subtotal}
+                  TotalPrice={subtotal}
                   />
+
                   <div className="RightSideCheckoutInfo">
                   <label>
                 <input type="radio"/>
