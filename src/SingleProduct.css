@@ -48,48 +48,15 @@
 }
 @media (min-width: 380px) and (max-width: 480px) {
 .RelatedProducts{
-   display: none;
+   max-width: var(--container-width);
+    width: 100%;
+    height: auto;
 }
 .RelatedProducts h2{
-    font-size: 36px;
-    font-weight: normal;
-}
-.RelatedProductsShelf{
-    width: 100%;
-}
-.SingleProductCardContainer{
-    margin-bottom: 30px;
+    font-size: var(--title-xl);
 }
 .Description{
     display: none;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem; */
-}
-.DescriptionTitle{
-    display: flex;
-    gap: 2rem;
-}
-.DescriptionTitle h2{
-    color: gray;
-    font-weight: normal;
-    font-size: 24px;
-    cursor: pointer;
-}
-.DescriptionTitle h2:focus{
-    color: #000;
-}
-.DescriptionContent{
-    width: 1026px;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-.DescriptionContent p{
-    font-size: 16px;
-    color: gray;
 }
 }
 
@@ -97,18 +64,48 @@
 
 /* ---------- Планшеты 481–768px ---------- */
 @media (min-width: 481px) and (max-width: 768px) {
-
+.RelatedProducts{
+   max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.RelatedProducts h2{
+    font-size: var(--title-xl);
+}
+.Description{
+    display: none;
+}
 }
 
 
 
 /* ---------- Ноутбуки 769–1280px ---------- */
 @media (min-width: 769px) and (max-width: 1280px) {
-
+.RelatedProducts{
+   max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.RelatedProducts h2{
+    font-size: var(--title-xl);
+}
+.Description{
+    display: none;
+}
 }
 
 
 /* ---------- Большие ноуты до 1440px ---------- */
 @media (min-width: 1281px) and (max-width: 1440px) {
-
+.RelatedProducts{
+   max-width: var(--container-width);
+    width: 100%;
+    height: auto;
+}
+.RelatedProducts h2{
+    font-size: var(--title-xl);
+}
+.Description{
+    display: none;
+}
 }
