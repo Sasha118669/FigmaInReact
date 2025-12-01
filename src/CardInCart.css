@@ -21,18 +21,10 @@
 
 @media (min-width: 380px) and (max-width: 480px) {
 .myTableWrapper {
-    max-width: var(--box-width);
-    width: 100%;
+    width: 370px;
+    margin: auto;
     height: auto;
     overflow-x: auto;
-    border: 2px solid red;
-}
-  .myTable{
-    /* width: max-content;
-    height: auto;
-    border-collapse: collapse; */
-    border: 2px solid green;
-    /* display: none; */
 }
 }
 
@@ -41,17 +33,10 @@
 /* ---------- Планшеты 481–768px ---------- */
 @media (min-width: 481px) and (max-width: 768px) {
 .myTableWrapper {
-     max-width: var(--box-width);
-    width: 100%;
+    width: 450px;
+    margin: auto;
     height: auto;
     overflow-x: auto;
-    white-space: nowrap;
-    position: relative;
-}
-  .myTable{
-    width: max-content;
-    height: auto;
-    border-collapse: collapse;
 }
 }
 
@@ -60,17 +45,10 @@
 /* ---------- Ноутбуки 769–1280px ---------- */
 @media (min-width: 769px) and (max-width: 1280px) {
 .myTableWrapper {
-     max-width: var(--box-width);
-    width: 100%;
+    width: 400px;
+    margin: auto;
     height: auto;
     overflow-x: auto;
-    white-space: nowrap;
-    position: relative;
-}
-  .myTable{
-    width: max-content;
-    height: auto;
-    border-collapse: collapse;
 }
 }
 
@@ -78,16 +56,9 @@
 /* ---------- Большие ноуты до 1440px ---------- */
 @media (min-width: 1281px) and (max-width: 1440px) {
 .myTableWrapper {
-     max-width: var(--box-width);
-    width: 100%;
+    width: 650px;
+    margin: auto;
     height: auto;
     overflow-x: auto;
-    white-space: nowrap;
-    position: relative;
-}
-  .myTable{
-    width: max-content;
-    height: auto;
-    border-collapse: collapse;
 }
 }
