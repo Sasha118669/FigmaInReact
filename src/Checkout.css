@@ -1,12 +1,10 @@
 .CheckoutContainer{
-    border: 2px solid;
     width: 1440px;
     display: flex;
     justify-content: center;
 }
 .LeftSideCheckoutContent,
 .RightSideCheckoutContent{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -25,7 +23,6 @@
     border: 2px  solid;
 }
 .NameLastName{
-    border: 2px solid;
     display: flex;
     gap: 2rem;
 }

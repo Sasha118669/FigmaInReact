@@ -1,5 +1,4 @@
 .CartContainer{
-    border: 2px solid;
     width: 1440px;
     padding: 20px;
     margin-bottom: 50px;
@@ -13,7 +12,6 @@
     gap: 2rem;
 }
 .CartContent{
-    border: 2px solid red;
     width: 393px;
     height: 390px;
     padding: 20px;

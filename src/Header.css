@@ -1,5 +1,4 @@
 .Header {
-    border: 2px solid;
     width: 1440px;
     height: 100px;
     display: flex;
@@ -8,7 +7,6 @@
     margin-bottom: 50px;
 }
 .ContentHeader {
-    border: 2px solid green;
     width: 1286px;
     height: 41px;
     display: flex;
@@ -26,7 +24,6 @@ background-color: #fff;
     width: 185px;
     height: 41px;
     gap: 5px;
-    border: 2px solid;
 }
 .LogoHeader img{
     width: 50px;
@@ -41,7 +38,6 @@ background-color: #fff;
     width: 430px;
     height: 24px;
     margin: auto;
-    border: 2px solid;
     gap: 75px;
 }
 .NavHeader1 a{
@@ -50,7 +46,6 @@ background-color: #fff;
 
 }
 .NavHeader2{
-    border: 2px solid;
     gap: 75px;
     height: 41px;
 }

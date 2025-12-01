@@ -3,28 +3,23 @@ table {
     margin: auto;
     border-collapse: collapse;
     text-align: left;
-    /* border: 2px solid green; */
   }
 
 
   th, td {
     padding: 10px 15px;
-    /* border: 2px solid red; */
   }
 
   tbody th {
-    /* border: 2px solid; */
     width: 25%;
     font-weight: normal;
   }
   .TableTitle{
-    /* font-weight: bold; */
     font-size: 28px;
   }
 
   tbody td {
     width: 35%;
-    /* border: 2px solid red; */
   }
 .AddToCartBtn{
     width: 215px;
@@ -39,7 +34,6 @@ table {
     gap: 1rem;
 }
 .ProductComarisonContainerAddProduct{
-    /* border: 2px solid red; */
     width: 200px;
 }
 .ProductComarisonContainerAddProduct h2{
@@ -69,6 +63,5 @@ table {
     color: gray;
 }
 .Space{
-    /* border: 2px solid; */
     padding: 50px;
 }

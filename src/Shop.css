@@ -1,5 +1,5 @@
 .ShopFilter{
-    border: 2px solid;
+    background-color: rgb(251, 246, 236);
     width: 1440px;
     height: 100px;
     margin-bottom: 50px;
@@ -10,7 +10,6 @@
 }
 .RightSideFilter,
 .LeftSideFilter{
-    border: 2px solid;
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -43,7 +42,6 @@
 }
 .ShopContetn{
     width: 1236px;
-    border: 2px solid green;
 }
 
 @media (min-width: 380px) and (max-width: 480px) {

@@ -1,5 +1,4 @@
 .FirstSectionMain{
-    border: 2px solid green;
     width: 1440px;
     height: 666px;
     padding: 50px;
@@ -9,7 +8,6 @@
      background-image: url(./assets/pictures/scandinavian-interior-mockup-wall-decal-background\ 1.png);
 }
 .Box{
-    border: 2px solid red;
     background-color: #fff;
     width: 561px;
     height: 325px;
@@ -30,12 +28,10 @@
 }
 
 .SecondSectionMain{
-    border: 2px solid red;
     width: 1183px;
     margin-bottom: 50px;
 }
 .TitleInSecondSectionMain{
-    border: 2px solid green;
     text-align: center;
     height: 76px;
     margin-bottom: 20px;
@@ -50,7 +46,6 @@ font-size: 20px;
 font-weight: lighter;
 }
 .Presentation{
-    border: 2px solid;
     display: flex;
     gap: 1rem;
 }
@@ -64,7 +59,6 @@ font-weight: lighter;
     margin-bottom: 20px;
 }
 .ThirdSectionMain {
-    border: 2px solid green;
     width: 1236px;
     margin-bottom: 50px;
 }
@@ -75,7 +69,6 @@ font-weight: lighter;
     margin-bottom: 20px;
 }
 .Shelf{
-    border: 2px solid yellow;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -92,7 +85,6 @@ font-weight: lighter;
 }
 
 .FourthSectionMain{
-    border: 2px solid;
     width: 1440px;
     height: 670px;
     margin-bottom: 50px;
@@ -122,7 +114,6 @@ font-weight: lighter;
     display: flex;
 }
 .FourthSectionContent{
-    border: 2px solid;
     background-image: url(./assets/pictures/FourthSectionContentBgImg.png);
     width: 330px;
     height: 582px;
@@ -151,7 +142,6 @@ font-weight: lighter;
 }
 
 .FifthSectionMain{
-    border: 2px solid;
     width: 1440px;
 }
 .FifthSectionMain p{
@@ -164,7 +154,6 @@ font-weight: lighter;
     font-weight: bold;
 }
 .Gallery{
-    border: 2px solid;
     display: flex;
     justify-content: space-between;
 }
@@ -173,15 +162,12 @@ font-weight: lighter;
 }
 .LeftSide{
     width: 600px;
-    border: 2px solid red;
 }
 .Midle{
     width: 240px;
-    border: 2px solid green;
 }
 .RightSide{
     width: 600px;
-    border: 2px solid blue;
 }
 .LeftSideImg1{
     width: 219px;
@@ -308,7 +294,6 @@ font-weight: lighter;
 }
 .FourthSectionContentContainer{
     display: flex;
-    border: 2px solid red;
     width: 60%;
 }
 .FourthSectionContent{
@@ -423,7 +408,6 @@ font-weight: lighter;
 }
 .FourthSectionContentContainer{
     display: flex;
-    border: 2px solid red;
     width: 60%;
 }
 .FourthSectionContent{
@@ -538,7 +522,6 @@ font-weight: lighter;
 }
 .FourthSectionContentContainer{
     display: flex;
-    border: 2px solid red;
     width: 60%;
 }
 .FourthSectionContent{
@@ -640,14 +623,12 @@ font-weight: lighter;
 }
 .FourthSectionInfo{
     width: 30%;
-    border: 2px solid green;
     display: none;
 }
 .FourthSectionInfo h2{
     font-size: var(--title-xl);
     width: 100%;
     height: auto;
-    border: 2px solid red;
 }
 .FourthSectionInfo button{
     max-width: var(--btn-width);
@@ -656,7 +637,6 @@ font-weight: lighter;
 }
 .FourthSectionContentContainer{
     display: flex;
-    border: 2px solid green;
     width: 100%;
 }
 .FourthSectionContent{
@@ -758,14 +738,12 @@ font-weight: lighter;
 }
 .FourthSectionInfo{
     width: 30%;
-    border: 2px solid green;
     display: none;
 }
 .FourthSectionInfo h2{
     font-size: var(--title-xl);
     width: 100%;
     height: auto;
-    border: 2px solid red;
 }
 .FourthSectionInfo button{
     max-width: var(--btn-width);
@@ -774,7 +752,6 @@ font-weight: lighter;
 }
 .FourthSectionContentContainer{
     display: flex;
-    border: 2px solid green;
     width: 100%;
 }
 .FourthSectionContent{

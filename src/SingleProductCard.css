@@ -1,9 +1,7 @@
 .SingleProductCard{
-    border: 2px solid red;
     width: 1440px;
 }
 .SingleProductCardNav{
-    border: 2px solid;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -18,11 +16,9 @@
     font-size: 18px !important;
 }
 .SingleProductCardContent{
-    border: 2px solid green;
     display: flex;
 }
 .SingleProductCardLeftContent{
-    border: 2px solid;
     width: 50%;
     display: flex;
     gap: 1rem;

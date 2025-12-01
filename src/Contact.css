@@ -1,5 +1,4 @@
 .ContactMainContainer{
-    border: 2px solid red;
     width: 1020px;
 }
 .ContactMainContainerHeading{
@@ -21,13 +20,11 @@
     color: gray;
 }
 .ContactMainContent{
-    border: 2px solid green;
     display: flex;
     justify-content: space-between;
 }
 .ContactMainLeftContent,
 .ContactMainRightContent{
-    border: 2px solid;
     display: flex;
     padding: 30px;
     /* justify-content: center; */
@@ -95,7 +92,6 @@
 }
 .ContactMainLeftContent,
 .ContactMainRightContent{
-    border: 2px solid;
     display: flex;
     padding: 30px;
     /* justify-content: center; */
@@ -162,7 +158,6 @@
 }
 .ContactMainLeftContent,
 .ContactMainRightContent{
-    border: 2px solid;
     display: flex;
     padding: 30px;
     /* justify-content: center; */
@@ -229,7 +224,6 @@
 }
 .ContactMainLeftContent,
 .ContactMainRightContent{
-    border: 2px solid;
     display: flex;
     padding: 30px;
     /* justify-content: center; */

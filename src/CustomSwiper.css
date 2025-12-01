@@ -2,13 +2,11 @@
   max-width: 1440px;
 }
 .custom-nav{
-    border: 2px solid;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .custom-pagination{
-    /* border: 2px solid red; */
     position: static !important;
     display: flex;
     width: fit-content !important;

@@ -1,10 +1,8 @@
 .Card{
-    border: 2px solid;
     width: 285px;
     position: relative;
 }
 .Card img{
-    /* border: 2px solid red; */
     width: 281px;
     height: 301px;
 }
@@ -36,9 +34,6 @@
     justify-content: center;
     font-size: 16px;
 }
-.CardDescription{
-    border: 2px solid green;
-}
 .CardDescription h2{
     font-size: 24px !important;
     font-weight: normal !important;
@@ -53,7 +48,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    border: 2px solid;
 }
 .Price {
     font-size: 20px;

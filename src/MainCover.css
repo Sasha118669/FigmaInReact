@@ -1,5 +1,4 @@
 .MainCover{
-    border: 2px solid;
     width: 1440px;
     height: 316px;
     background-image: url(./assets/pictures/ShopMainCoverImg.png);
@@ -21,7 +20,6 @@
     font-size: 16px;
 }
 .MainContetn{
-    border: 2px solid;
     width: 1236px;
     margin-bottom: 50px;
 }
